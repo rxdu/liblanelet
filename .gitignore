@@ -1,3 +1,6 @@
+.vscode
+config.log
+
 # Compiled Object files
 *.slo
 *.lo
