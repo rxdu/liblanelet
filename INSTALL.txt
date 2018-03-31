@@ -18,34 +18,17 @@ Requirements
 * a C++ compiler with C++11-extensions
 * the Boost C++ libraries
 
-Installation
-============
+Build
+======
 
-$ scons install 
+$ mkdir build
+$ cd build
+$ cmake ../src
+$ make
 
-You can pass several options to scons, e.g.
-
-INSTALL_AS_SYML=(1|0)
-  installs header and library files as symbolic links (instead of copying 
-  them)
-
-OPTIMIZATION_FLAGS='<flags>'
-  Extra flags passed to the compiler, e.g. '-O3'
-
-RELEASE=(1|0)
-  Builds with or without debug code
-
-For additional flags resp. their (cached) values, type
-
-$ scons -h
-
-After successfully building the repository, you can execute the tests with
-
-$ install/bin/lanelet_tests
-
-A small demo program resides in libLanelet/demo.cpp, which is included in 
+A small demo program resides in libLanelet/src/demo.cpp, which is included in 
 the build as well and executable with
 
-$ install/bin/demo libLanelet/sample.osm
+$ ./build/bin/demo samples/sample.osm
 
 'sample.osm' is a tiny example map snippet.
