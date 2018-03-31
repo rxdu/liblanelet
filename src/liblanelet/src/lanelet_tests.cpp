@@ -21,11 +21,11 @@
 #include <gtest/gtest.h>
 #include <algorithm>
 
-#include <MRT/libLanelet/llet_xml.hpp>
-#include <MRT/libLanelet/Lanelet.hpp>
-#include <MRT/libLanelet/LaneletMap.hpp>
-#include <MRT/libLanelet/RegulatoryElement.hpp>
-#include <MRT/Commons/prettyprint.hpp>
+#include <liblanelet/llet_xml.hpp>
+#include <liblanelet/Lanelet.hpp>
+#include <liblanelet/LaneletMap.hpp>
+#include <liblanelet/RegulatoryElement.hpp>
+#include <common/prettyprint.hpp>
 
 #include <boost/graph/adjacency_list.hpp>
 

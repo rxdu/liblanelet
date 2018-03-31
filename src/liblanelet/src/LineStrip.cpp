@@ -17,7 +17,7 @@
  *  along with libLanelet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "LineStrip.hpp"
+#include "liblanelet/LineStrip.hpp"
 #include <deque>
 #include <algorithm>
 #include <stdexcept>

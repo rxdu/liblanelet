@@ -17,13 +17,13 @@
  *  along with libLanelet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "LaneletMap.hpp"
-#include "llet_xml.hpp"
+#include "liblanelet/LaneletMap.hpp"
+#include "liblanelet/llet_xml.hpp"
 #include <iostream>
 #include <algorithm>
 #include <cassert>
-#include <MRT/libLanelet/LaneletGraph.hpp>
-#include <MRT/Commons/prettyprint.hpp>
+#include <liblanelet/LaneletGraph.hpp>
+#include <common/prettyprint.hpp>
 
 using namespace LLet;
 

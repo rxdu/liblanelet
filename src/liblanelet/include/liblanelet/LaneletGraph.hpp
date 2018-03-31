@@ -27,15 +27,15 @@
 
 #include <boost/foreach.hpp>
 
-#include <MRT/libLanelet/Lanelet.hpp>
-#include <MRT/Commons/LocalGeographicCS.hpp>
+#include <liblanelet/Lanelet.hpp>
+#include <common/LocalGeographicCS.hpp>
 #include <vector>
 #include <vector>
 #include <deque>
 #include <queue>
 #include <map>
 
-#include <MRT/libLanelet//RTree.h>
+#include <liblanelet/RTree.h>
 
 namespace LLet
 {

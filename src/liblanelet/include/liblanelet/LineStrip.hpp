@@ -19,9 +19,9 @@
 
 #pragma once
 
-#include <MRT/libLanelet/Attribute.hpp>
-#include <MRT/libLanelet/lanelet_point.hpp>
-#include <MRT/libLanelet/BoundingBox.hpp>
+#include <liblanelet/Attribute.hpp>
+#include <liblanelet/lanelet_point.hpp>
+#include <liblanelet/BoundingBox.hpp>
 #include <vector>
 #include <memory>
 #include <tuple>

@@ -21,8 +21,8 @@
 
 #include <boost/math/special_functions.hpp>
 #include <cmath>
-#include <MRT/Commons/LocalGeographicCS.hpp>
-#include <MRT/Commons/normalize_angle.hpp>
+#include <common/LocalGeographicCS.hpp>
+#include <common/normalize_angle.hpp>
 
 namespace LLet
 {

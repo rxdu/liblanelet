@@ -17,7 +17,7 @@
  *  along with libLanelet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "LaneletBase.hpp"
+#include "liblanelet/LaneletBase.hpp"
 
 #include <algorithm>
 

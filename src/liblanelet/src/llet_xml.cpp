@@ -17,13 +17,13 @@
  *  along with libLanelet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "llet_xml.hpp"
-#include "LineStrip.hpp"
-#include "RegulatoryElement.hpp"
+#include "liblanelet/llet_xml.hpp"
+#include "liblanelet/LineStrip.hpp"
+#include "liblanelet/RegulatoryElement.hpp"
 
-#include <MRT/libpugixml/pugixml.hpp>
-#include <MRT/Commons/prettyprint.hpp>
-#include <MRT/Commons/mercator.hpp>
+#include <libpugixml/pugixml.hpp>
+#include <common/prettyprint.hpp>
+#include <common/mercator.hpp>
 
 #include <boost/format.hpp>
 

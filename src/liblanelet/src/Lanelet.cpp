@@ -17,7 +17,7 @@
  *  along with libLanelet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "Lanelet.hpp"
+#include "liblanelet/Lanelet.hpp"
 
 #include <boost/format.hpp>
 

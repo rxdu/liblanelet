@@ -19,10 +19,10 @@
 
 #include <iostream>
 
-#include <MRT/libLanelet/llet_xml.hpp>
-#include <MRT/libLanelet/Lanelet.hpp>
-#include <MRT/libLanelet/LaneletMap.hpp>
-#include <MRT/libLanelet/BoundingBox.hpp>
+#include <liblanelet/llet_xml.hpp>
+#include <liblanelet/Lanelet.hpp>
+#include <liblanelet/LaneletMap.hpp>
+#include <liblanelet/BoundingBox.hpp>
 
 #include <boost/foreach.hpp>
 

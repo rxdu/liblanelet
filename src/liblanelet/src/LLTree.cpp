@@ -17,7 +17,7 @@
  *  along with libLanelet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "LLTree.hpp"
+#include "liblanelet/LLTree.hpp"
 
 #include <algorithm>
 

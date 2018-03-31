@@ -17,28 +17,23 @@
  *  along with libLanelet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "CompoundLanelet.hpp"
+#include "liblanelet/Attribute.hpp"
 
 using namespace LLet;
 
-CompoundLanelet::CompoundLanelet(const std::vector<lanelet_base_ptr_t> &lanelets) : _lanelets(lanelets)
+const AttributeValue& HasAttributes::attribute(std::string key) const
 {
-
-    auto& left = std::get<0>(bounds);
-    auto& right = std::get<1>(bounds);
-
-    for( const auto& llet: lanelets )
-    {
-        const auto& reg_elem_to_insert = llet->regulatory_elements();
-        _regulatory_elements.insert(_regulatory_elements.end(), reg_elem_to_insert.cbegin(), reg_elem_to_insert.cend() );
-    }
+    // TODO I think this will throw if key not present ... do we want this?
+    return _attributes.at( key );
 }
 
-const std::vector<point_with_id_t> &CompoundLanelet::nodes(SIDE bound) const
+AttributeMap& HasAttributes::attributes()
 {
+    return _attributes;
 }
 
-const std::vector<regulatory_element_ptr_t> &CompoundLanelet::regulatory_elements() const
+const AttributeMap& HasAttributes::attributes() const
 {
-    return _regulatory_elements;
+    return _attributes;
 }
+

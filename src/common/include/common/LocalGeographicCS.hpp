@@ -5,7 +5,7 @@
 #if !defined(LOCALGEOGRAPHICCS_HPP)
 #define LOCALGEOGRAPHICCS_HPP
 
-#include <MRT/Commons/convert_coordinates.hpp>
+#include <common/convert_coordinates.hpp>
 
 #include <utility>
 

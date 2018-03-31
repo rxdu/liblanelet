@@ -17,7 +17,7 @@
  *  along with libLanelet.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "RegulatoryElement.hpp"
+#include "liblanelet/RegulatoryElement.hpp"
 
 using namespace LLet;
 
